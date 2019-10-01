@@ -1,0 +1,49 @@
+
+html,
+body {
+  height:100%;
+  padding:0;
+  margin:0;
+  background-image: url('https://media.giphy.com/media/UrS9roK2cuQBG/giphy.gif');
+  background-size:cover;
+  background-repeat:no-repeat;
+  
+  z-index: 1;
+  
+}
+
+
+img {
+	margin: 10px 0 0 10px;
+	width: 30%;
+	opacity: 0.7;
+	
+}
+#mike
+{
+	margin: 10px 0 0 10px;
+	width: 30%;
+	z-index: 2;
+}
+.name{
+	font-size: 3.5em;
+
+	
+}
+
+
+
+
+.profile
+{
+	display: flex;
+	justify-content: space-around;
+	color:#1d603c;
+    align-items: center;
+
+}
+
+
+
+
+
