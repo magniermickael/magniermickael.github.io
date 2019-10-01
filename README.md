@@ -1,1 +1,1 @@
-# magniermickael.github.io/index.html
+# magniermickael.github.io/
