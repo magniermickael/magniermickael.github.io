@@ -8,23 +8,25 @@ body {
   background-size:cover;
   background-repeat:no-repeat;
   
+  z-index: 1;
+  
 }
 
 
 img {
 	margin: 10px 0 0 10px;
 	width: 30%;
-	opacity: 0.5;
+	opacity: 0.7;
 	
 }
 #mike
 {
 	margin: 10px 0 0 10px;
 	width: 30%;
-	opacity: 0.6;
+	z-index: 2;
 }
 .name{
-	font-size: 4em;
+	font-size: 3.5em;
 
 	
 }
@@ -36,8 +38,9 @@ img {
 {
 	display: flex;
 	justify-content: space-around;
-	color:blue;
+	color:#1d603c;
     align-items: center;
+
 }
 
 
