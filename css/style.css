@@ -66,85 +66,6 @@ hr {
   padding: 0;
 }
 
-/*---------------------------------------------------
-3.1 Topbar
----------------------------------------------------*/
-
-#section-topbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 10000;
-  overflow: visible;
-  font: normal 16px/24px 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-#section-topbar a {
-  color: #fff;
-}
-
-#topbar-inner {
-  background: #111;
-  line-height: 0;
-  text-align: center;
-}
-
-/*
-Top Bar
-
-By default, top navigation bar uses "fixed" position
-*/
-
-#section-topbar ul#nav {
-  display: inline-block;
-  position: relative;
-  margin: 0;
-  padding: 0;
-  border-right: 1px solid #222;
-  /* For IE, the outcast */
-  zoom: 1;
-  *display: inline;
-}
-
-#section-topbar ul#nav>li {
-  display: block;
-  float: left;
-  padding: 0;
-}
-
-#section-topbar ul#nav a {
-  display: block;
-  font: normal 11px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-decoration: none;
-  padding: 18px 20px 18px 20px;
-  border-left: 1px solid #222;
-}
-
-#section-topbar ul#nav a:focus {
-  background: #111;
-  text-decoration: none;
-  border-left: 1px solid #111;
-}
-
-#section-topbar ul#nav a:hover {
-  background: #222;
-  text-decoration: none;
-  border-left: 1px solid #111;
-}
-
-#section-topbar ul#nav .active a {
-  background: #44bbaa;
-  border-left: 1px solid #111;
-}
-
-#section-topbar ul#nav .active a:hover {
-  background: #44bbaa;
-}
-
-#section-topbar i {
-  font-size: 25px;
-}
 
 /*---------------------------------------------------
 SECTION WRAPS
@@ -153,14 +74,14 @@ SECTION WRAPS
 /* Header Wrap */
 
 #headerwrap {
-  background: url(../img/arriere_plan.gif) no-repeat center top;
+  background: url(../img/arriere_plan.gif) no-repeat;
   opacity: 0.3;
-  margin-top: 60px;
+  
   padding-top: 140px;
   text-align: center;
   background-attachment: relative;
   background-position: inherit ;
-  min-height: 500px;
+  min-height: 600px;
   width: 100%;
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
@@ -174,12 +95,14 @@ SECTION WRAPS
 
 #headerwrap h1 {
   font-size: 80px;
-  color: white;
+  color: black;
+  font-weight: 900;
 }
 
 #headerwrap h3 {
   font-size: 20px;
-  color: white;
+  color: black;
+  font-weight: 900;
 }
 
 /* Intnro Wrap */
@@ -200,7 +123,7 @@ SECTION WRAPS
 #intro i {
   color: white;
   font-size: 20px;
-  padding-right: 8px;
+  
   vertical-align: middle;
   
 }
@@ -400,29 +323,14 @@ sm {
 /*Fin Contact Form */
 /*---------------------------------------------------------------------------------------
 /* Debut section education*/
-//// Make long shadows
-/// @param {Number} $num [1] - number of shadows to make
-/// @param {Color} $color [white] - color of shadows
-@function longshadow($num,$color: white){
-  $shadow: '';
-  $i: 0;
-  @for $i from 1 through $num{
-    $shadow: $shadow + (1 * $i) + 'px' + ' ' + (1 * ($i * 2)) + 'px' + ' ' + $color;
-    @if $i < $num{
-      $shadow: $shadow + ', ';
-    }
-  }
-  @return unquote($shadow);
-}
-
-@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
 
 
-.word{
+.word{ 
+  
   margin: auto;
   color: white;
   font: 700 normal 4em/1.5 'Montserrat',sans-serif;
-  text-shadow: longshadow(10,darken($key,10%));
+  text-shadow: longshadow(10,darken(key,10%));
 }
 
 .link-abs {
@@ -660,7 +568,7 @@ em {
       background: none!important;
       border-color: transparent!important;
       line-height: 1.2em!important;
-      height: auto!important;
+      
       margin: 0!important;
       padding: 0!important;
       font-size: 110%!important
@@ -828,7 +736,7 @@ em {
   }
   #search input[type="submit"] {
       width: 44px!important;
-      -webkit-border-radius: 0
+      
   }
   #search label {
       z-index: 2!important;
@@ -2116,7 +2024,7 @@ a+.sidenav-small,
   background-position: 8px center;
   background-repeat: no-repeat;
   border: none;
-  -webkit-backface-visibility: hidden;
+  
   -webkit-appearance: none;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -2949,14 +2857,15 @@ p.small {
   background:#034064;
   margin-top: 0;
   margin-bottom: 0;
-  
+  padding-top: 80px;
 }
 
 h1
 {
 	color:#fff;
 	margin:40px 0 60px 0;
-	font-weight:300;
+  font-weight:300;
+  height: 150PX;
 }
 
 .our-team-main
