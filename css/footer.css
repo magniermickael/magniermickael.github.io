@@ -1,0 +1,108 @@
+#skillswrap {
+    background: #2c3e50;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: white;
+  }
+  
+  #skillswrap h5, p {
+    color: white;
+  }
+  
+  #footwrap {
+    background: #2f2f2f;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  #footwrap p {
+    color: white;
+  }
+  
+  #footwrap h5 {
+    color: white;
+  }
+  
+  #footwrap t {
+    font-weight: 700;
+  }
+  
+  #footwrap i {
+    padding-right: 8px;
+    color: #1abc9c;
+  }
+  
+  /* Copyright Wrap */
+  
+  #copyrights {
+    background: #222222;
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  #copyrights p {
+    margin: 0 0 5px 0;
+  }
+  
+  .credits {
+    color: #999;
+  }
+  
+  /* Global Values */
+  
+  .desc {
+    padding-top: 50px;
+  }
+  
+  .desc p {
+    color: #333399;
+  }
+  
+  .desc t {
+    color: #34495e;
+    font-weight: 700;
+  }
+  
+  .desc imp {
+    padding: 6px;
+    color: white;
+    background: #34495e;
+  }
+  
+  .desc more {
+    color: #336699;
+  }
+  
+  .sm {
+    font-size: 12px;
+  }
+  
+
+footer {
+    font-size: 2em;
+}
+
+@media screen and (max-width: 940px) {
+    footer {
+        font-size: 1.7em;
+    }
+
+
+    @media screen and (max-width: 640px) {
+        footer {
+            font-size: 1.5em;
+        }
+
+        @media screen and (max-width: 480px) {
+            footer {
+                font-size: 1em;
+            }
+        }
+    }
+}
+
+#mike{
+    background: #2f2f2f;
+}
