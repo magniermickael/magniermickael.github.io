@@ -158,7 +158,7 @@ var aText = new Array(
   
   
   const phrases = [
-    'Expériences Professionnelles', 'Emplois' ,' Expériences'
+    'Professionnelles', 'Emplois' ,' Expériences'
   ]
   
   const el = document.querySelector('.text_exp')
