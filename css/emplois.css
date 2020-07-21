@@ -336,7 +336,7 @@ h1 {
 
 @media screen and (max-width: 480px) {
         #text_exp{
-        font-size: 100%;
+        font-size: 150%;
     }
 
 }
