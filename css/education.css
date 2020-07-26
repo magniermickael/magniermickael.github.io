@@ -50,6 +50,13 @@
   box-sizing: border-box;
   
 }
+#devm{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ 
+
+}
 
 html {
   font-family: sans-serif;
@@ -11253,6 +11260,13 @@ form .row:first-child .floating-label-form-group {
   #word { 
     font-size: 28px;
   }
+
+  #description{
+    font-size: 16px;
+    height: 100%;
+
+  }
+
 }
 
 
@@ -11261,4 +11275,5 @@ form .row:first-child .floating-label-form-group {
   #word { 
     font-size: 25px;
   }  
+  
 }

@@ -3,10 +3,11 @@
 #Emplois {
     
     display: flex;
-    background: black;/*#034064;*/
+    background: /*black;*/#034064;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    align-content: center;
+    justify-content: space-around;
 
 }
 
@@ -335,9 +336,6 @@ h1 {
 }
 
 @media screen and (max-width: 480px) {
-        #text_exp{
-        font-size: 150%;
-    }
 
 }
 
