@@ -1,0 +1,149 @@
+/*debut section emplois*/
+
+#experience {
+    background: #034064;
+    
+}
+
+
+#text_exp{
+    height: 1vh;
+
+   
+}
+
+h1 {
+    color: #fff;
+    font-weight: 300;
+}
+
+.our-team-main {
+    max-width: 350PX;
+    height: 500px;
+    background: #fff;
+    text-align: center;
+    border-radius: 30px;
+    overflow: hidden;
+    position: relative;
+    transition: 0.5s;
+    margin: auto;
+    margin-bottom: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+
+.our-team-main img {
+    border-radius: 50%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 200px;
+}
+
+.our-team-main h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.our-team-main p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.team-back {
+    justify-content: center;
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 5px 0 0 15px;
+    text-align: left;
+    background: #fff;
+
+}
+
+#Clemessy ul {
+    display: inline-block;
+    margin-top: 40px;
+}
+
+#akawam1 ul {
+    display: inline-block;
+    margin-top: 30%;
+    line-height : 50px;
+}
+
+#akawam2 ul {
+    display: inline-block;
+    margin-top: 30%;
+    line-height : 50px;
+}
+
+#save ul {
+    display: inline-block;
+    margin-top: 20%;
+}
+
+#sosmart ul {
+    display: inline-block;
+    margin-top: 10%;
+    line-height : 20px;
+}
+
+#afpi ul {
+    display: inline-block;
+    margin-top: 10%;
+}
+
+#afpa ul {
+    display: inline-block;
+    margin-top: 15%;
+}
+
+.team-back li {
+    margin: 5% 0;
+    margin-left: -30px;
+    list-style: none;
+    font-family: Verdana, Arial, Helvetica, Geneva, sans-serif;
+    font-size: 100%;
+    color: black;
+
+}
+
+.team-front {
+    width: 350px;
+    height: 500px;
+    position: relative;
+    z-index: 10;
+    background: #fff;
+    padding: 15px;
+    bottom: 0px;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+
+}
+
+.our-team-main:hover .team-front {
+    bottom: -500px;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+.our-team-main:hover {
+    border-color: #339933;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
