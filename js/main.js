@@ -4,7 +4,7 @@
 
 var aText = new Array(
     "Développeur PHP / MySQL / Symfony ",
-    "Java / FX / JEE (création servlet, webservice)", 
+    "JavaScripts, Front/Back", 
     "HTML5/CSS Bootstrap / jQuery / Ajax",
     "Javascript Front/Back."
     );
