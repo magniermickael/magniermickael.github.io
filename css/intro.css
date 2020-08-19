@@ -75,14 +75,18 @@
         font-size: 16px;
     }
 
-
+    #apropos {
+        font-size: 1, 5em;
+    }
 }
 
 @media screen and (max-width: 480px) {
 
 
-   
-
+    #apropos {
+        font-size: 1em;
+    }
+}
 .img-responsive{
     width: 200px;
     height: 200px;
@@ -109,5 +113,7 @@
         margin-right:0 ;
     }
 
-   
+    #apropos {
+        font-size: 1, 2em;
+    }
 }
