@@ -85,9 +85,7 @@
         font-size: 10px;
     }
 
-    #apropos {
-        font-size: 1em;
-    }
+   
 }
 .img-responsive{
     width: 200px;
@@ -115,7 +113,5 @@
         margin-right:0 ;
     }
 
-    #apropos {
-        font-size: 1, 2em;
-    }
+   
 }
