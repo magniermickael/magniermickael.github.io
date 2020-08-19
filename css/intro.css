@@ -75,9 +75,7 @@
         font-size: 16px;
     }
 
-    #apropos {
-        font-size: 1, 5em;
-    }
+
 }
 
 @media screen and (max-width: 480px) {
